@@ -1,5 +1,5 @@
-Mục tiêu bài thực hành là thiết lập môi trường MongoDB Atlas, cài đặt MongoDB Compass, kết nối với cluster, và thực hành các thao tác cơ bản và nâng cao (CRUD) của MongoDB.
-Công cụ/Môi trường sử dụng: MongoDB Atlas, MongoDB Compass, MONGOSH(trong MongoDB Compass)
+Mục tiêu bài thực hành là thiết lập môi trường MongoDB Atlas, cài đặt MongoDB Compass, kết nối với cluster, và thực hành các thao tác cơ bản và nâng cao (CRUD) của MongoDB.  
+Công cụ/Môi trường sử dụng: MongoDB Atlas, MongoDB Compass, MONGOSH(trong MongoDB Compass)  
 # Bài 1: Thiết lập môi trường
 
 ## 1.1 Đăng ký tài khoản MongoDB Atlas và tạo cluster miễn phí trên dịch vụ đám mây

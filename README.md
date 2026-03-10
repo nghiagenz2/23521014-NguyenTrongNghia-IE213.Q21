@@ -5,8 +5,8 @@
 
 Họ tên: Nguyễn Trọng Nghĩa  
 MSSV: 23521014  
-Lớp: CNTT2023.2
-Môn học: IE213.Q21   
+Lớp: CNTT2023.2  
+Môn học: IE213.Q21  
 Trường: Đại học Công nghệ Thông tin - ĐHQG TP.HCM
 
 ## Danh sách bài thực hành
