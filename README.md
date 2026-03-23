@@ -1,4 +1,3 @@
-# 23521014-NguyenTrongNghia-IE213.Q21
 # IE213 - Kỹ thuật phát triển hệ thống web
 
 ## Thông tin sinh viên
