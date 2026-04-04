@@ -12,6 +12,7 @@
 
 - Lab01: MongoDB CRUD Operation
 - Lab02: Thiết lập Backend với NODE|EXPRESSJS
+- Lab03: Hoàn thiện Movie Reviews Backend
 
 ## Checklist theo từng lab
 
@@ -83,3 +84,50 @@ Chi tiết: [`Lab01/README.md`](./Lab01/README.md)
    - Không có.
 
 Chi tiết: [`Lab02/README.md`](./Lab02/README.md)
+
+### Lab03 - Hoàn thiện Movie Reviews Backend
+
+- Mô tả ngắn gọn lab
+   - Hoàn thiện ứng dụng Movie Reviews với các chức năng review CRUD.
+   - Bổ sung route, controller và DAO cho review, movie by id và ratings.
+   - Kiểm thử các API bằng Postman và trình bày kết quả trong README.
+
+- Cách chạy chương trình
+
+1. Mở terminal tại thư mục:
+
+   `Lab03/code/movie-reviews/backend`
+
+2. Cài dependency:
+
+   `npm install`
+
+3. Tạo/cập nhật file `.env` với thông tin kết nối MongoDB Atlas.
+
+4. Chạy server:
+
+   `npm start`
+
+5. Mở Postman hoặc trình duyệt và thử các endpoint:
+
+   `http://localhost:3000/api/v1/movies/review`
+
+   `http://localhost:3000/api/v1/movies/id/:id`
+
+   `http://localhost:3000/api/v1/movies/ratings`
+
+- Kết quả thực hiện
+   - Đã xây dựng và kiểm thử thành công các API review CRUD.
+   - Đã lấy được thông tin phim theo ID và danh sách rating từ dữ liệu.
+
+- Hình ảnh minh họa / output / screenshot
+   - Tham khảo trong file `README.md` của `Lab03`.
+
+- Nội dung đã hoàn thành
+   - Hoàn thành các bài từ Bài 1 đến Bài 4 trong `Lab03/README.md`.
+   - Hoàn thiện trình bày báo cáo và chèn hình ảnh minh họa.
+
+- Nội dung chưa hoàn thành
+   - Không có.
+
+Chi tiết: [`Lab03/README.md`](./Lab03/README.md)
