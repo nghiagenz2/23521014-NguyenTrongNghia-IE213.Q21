@@ -13,6 +13,7 @@
 - Lab01: MongoDB CRUD Operation
 - Lab02: Thiết lập Backend với NODE|EXPRESSJS
 - Lab03: Hoàn thiện Movie Reviews Backend
+- Lab04: Xây dựng Frontend Movie Reviews với React
 
 ## Checklist theo từng lab
 
@@ -131,3 +132,54 @@ Chi tiết: [`Lab02/README.md`](./Lab02/README.md)
    - Không có.
 
 Chi tiết: [`Lab03/README.md`](./Lab03/README.md)
+
+### Lab04 - Xây dựng Frontend Movie Reviews với React
+
+- Mô tả ngắn gọn lab
+   - Thiết lập frontend React cho ứng dụng Movie Reviews.
+   - Xây dựng giao diện điều hướng bằng React-Bootstrap.
+   - Thiết lập định tuyến các trang `movies`, `movie detail`, `add review`, `login` bằng React Router DOM.
+
+- Cách chạy chương trình
+
+1. Mở terminal tại thư mục:
+
+   `Lab04/code/MovieReview/frontend`
+
+2. Cài dependency:
+
+   `npm install`
+
+3. Chạy frontend:
+
+   `npm start`
+
+4. Mở trình duyệt tại:
+
+   `http://localhost:3000`
+
+5. Kiểm tra các route giao diện:
+
+   `http://localhost:3000/movies`
+
+   `http://localhost:3000/movies/:id`
+
+   `http://localhost:3000/movies/:id/review`
+
+   `http://localhost:3000/login`
+
+- Kết quả thực hiện
+   - Đã khởi tạo project React và chạy thành công giao diện frontend.
+   - Đã tích hợp Navbar bằng React-Bootstrap và định tuyến giữa các trang chức năng.
+
+- Hình ảnh minh họa / output / screenshot
+   - Tham khảo trong file `README.md` của `Lab04`.
+
+- Nội dung đã hoàn thành
+   - Hoàn thành các nội dung Bài 1 đến Bài 3 trong `Lab04/README.md`.
+   - Hoàn thiện phần trình bày báo cáo và chèn ảnh minh họa.
+
+- Nội dung chưa hoàn thành
+   - Không có.
+
+Chi tiết: [`Lab04/README.md`](./Lab04/README.md)
