@@ -14,6 +14,7 @@
 - Lab02: Thiết lập Backend với NODE|EXPRESSJS
 - Lab03: Hoàn thiện Movie Reviews Backend
 - Lab04: Xây dựng Frontend Movie Reviews với React
+- Lab05: Kết nối Backend và hoàn thiện Frontend Movie Reviews
 
 ## Checklist theo từng lab
 
@@ -183,3 +184,65 @@ Chi tiết: [`Lab03/README.md`](./Lab03/README.md)
    - Không có.
 
 Chi tiết: [`Lab04/README.md`](./Lab04/README.md)
+
+### Lab05 - Kết nối Backend và hoàn thiện Frontend Movie Reviews
+
+- Mô tả ngắn gọn lab
+   - Kết nối frontend với backend bằng `axios` thông qua lớp dịch vụ `MovieDataService`.
+   - Hoàn thiện màn hình danh sách phim, trang chi tiết phim và danh sách review.
+   - Kiểm thử thêm review bằng Postman và định dạng ngày tháng bằng `momentjs`.
+
+- Cách chạy chương trình
+
+1. Mở terminal tại thư mục:
+
+   `Lab05/code/backend`
+
+2. Cài dependency:
+
+   `npm install`
+
+3. Tạo/cập nhật file `.env` với thông tin kết nối MongoDB Atlas.
+
+4. Chạy backend:
+
+   `npm start`
+
+5. Mở terminal khác tại thư mục:
+
+   `Lab05/code/frontend`
+
+6. Cài dependency:
+
+   `npm install`
+
+7. Chạy frontend:
+
+   `npm start`
+
+8. Truy cập ứng dụng và kiểm tra các trang:
+
+   `http://localhost:3000/movies`
+
+   `http://localhost:3000/movies/:id`
+
+   `http://localhost:3000/movies/:id/review`
+
+   `http://localhost:3000/login`
+
+- Kết quả thực hiện
+   - Đã tạo thành công lớp dịch vụ `MovieDataService` để kết nối frontend với backend.
+   - Đã hiển thị danh sách phim bằng `MoviesList`, hỗ trợ tìm theo title và rating.
+   - Đã xây dựng trang chi tiết phim, hiển thị review, thêm review bằng Postman và định dạng ngày tháng bằng `momentjs`.
+
+- Hình ảnh minh họa / output / screenshot
+   - Tham khảo trong file `README.md` của `Lab05`.
+
+- Nội dung đã hoàn thành
+   - Hoàn thành các nội dung từ Bài 1 đến Bài 4 trong `Lab05/README.md`.
+   - Hoàn thiện phần kết nối frontend với backend, hiển thị movie detail và review.
+
+- Nội dung chưa hoàn thành
+   - Không có.
+
+Chi tiết: [`Lab05/README.md`](./Lab05/README.md)
