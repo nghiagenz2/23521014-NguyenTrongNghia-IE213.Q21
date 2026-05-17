@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background-color: #f4f6f8;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #1f2733 0%, #2a3442 100%) !important;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.28);
+  padding: 0.8rem 1rem;
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+  font-size: 1.9rem;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-link a,
+.navbar-nav .nav-link span {
+  color: #dfe6ef !important;
+  font-size: 1.08rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link a:hover,
+.navbar-nav .nav-link span:hover {
+  color: #00d4ff !important;
+}
+
+.navbar-nav .nav-link a[href="/movies"],
+.navbar-nav .nav-link a[href="/movies"]:visited {
+  color: #00d4ff !important;
+  text-decoration: underline !important;
+}
+
+.navbar-nav .nav-link a[href="/login"],
+.navbar-nav .nav-link a[href="/login"]:visited {
+  color: #00d4ff !important;
+  text-decoration: underline !important;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.35) !important;
+}
+
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}

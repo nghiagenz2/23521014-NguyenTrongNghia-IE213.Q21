@@ -246,3 +246,65 @@ Chi tiết: [`Lab04/README.md`](./Lab04/README.md)
    - Không có.
 
 Chi tiết: [`Lab05/README.md`](./Lab05/README.md)
+
+### Lab06 - Thêm/Sửa/Xoá Review, Phân Trang và Tìm Kiếm
+
+- Mô tả ngắn gọn lab
+   - Bổ sung chức năng đăng nhập, thêm/sửa/xoá review cho từng phim.
+   - Hiển thị nút Edit/Delete đúng quyền user, cập nhật review trực tiếp trên giao diện.
+   - Thêm phân trang, tìm kiếm theo tiêu đề/rating, đồng bộ dữ liệu frontend/backend.
+
+- Cách chạy chương trình
+
+1. Mở terminal tại thư mục backend:
+
+   `Lab06/code/backend`
+
+2. Cài dependency:
+
+   `npm install`
+
+3. Tạo/cập nhật file `.env` với thông tin kết nối MongoDB Atlas.
+
+4. Chạy backend:
+
+   `npm start`
+
+5. Mở terminal khác tại thư mục frontend:
+
+   `Lab06/code/frontend`
+
+6. Cài dependency:
+
+   `npm install`
+
+7. Chạy frontend:
+
+   `npm start`
+
+8. Truy cập ứng dụng và kiểm tra các trang:
+
+   `http://localhost:3000/movies`
+
+   `http://localhost:3000/movies/:id`
+
+   `http://localhost:3000/movies/:id/review`
+
+   `http://localhost:3000/login`
+
+- Kết quả thực hiện
+   - Đăng nhập thành công, chỉ review của user mới hiện Edit/Delete.
+   - Thêm/sửa/xoá review trực tiếp, cập nhật giao diện tức thì.
+   - Phân trang, tìm kiếm hoạt động đúng, chuyển trang không tải lại toàn bộ dữ liệu.
+
+- Hình ảnh minh họa / output / screenshot
+   - Tham khảo trong file `README.md` của `Lab06`.
+
+- Nội dung đã hoàn thành
+   - Hoàn thành các chức năng đăng nhập, thêm/sửa/xoá review, phân trang, tìm kiếm.
+   - Hiển thị đúng quyền user, cập nhật giao diện động, trình bày báo cáo và ảnh minh họa.
+
+- Nội dung chưa hoàn thành
+   - Không có.
+
+Chi tiết: [`Lab06/README.md`](./Lab06/README.md)
